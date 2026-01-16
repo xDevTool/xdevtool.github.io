@@ -2,56 +2,70 @@ const privacyContent = {
     'en': `
         <div class="header">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: January 14, 2026</p>
+            <p class="last-updated">Last Updated: January 16, 2026</p>
         </div>
         <div class="content">
             <section>
                 <h2>1. Introduction</h2>
-                <p>DevKit ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our Android developer tools application.</p>
+                <p>DevKit ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect information when you use our Android developer tools application.</p>
             </section>
 
             <section>
                 <h2>2. Information We Collect</h2>
                 <h3>2.1 Local Information</h3>
-                <p>All information collected by DevKit is stored locally on your device and is NEVER transmitted to external servers:</p>
+                <p>The following information is stored locally on your device:</p>
                 <ul>
                     <li><strong>Installed Applications List:</strong> Used to display and manage apps on your device</li>
                     <li><strong>Device Information:</strong> Hardware specifications, Android version, screen resolution for display purposes</li>
                     <li><strong>User Preferences:</strong> Your app settings and customization options</li>
-                    <li><strong>QR Code History:</strong> Previously scanned QR codes (stored locally only)</li>
+                    <li><strong>QR Code History:</strong> Previously scanned QR codes</li>
                 </ul>
-                
-                <h3>2.2 Information We Do NOT Collect</h3>
+
+                <h3>2.2 Information Collected by Third-Party Services</h3>
+                <p>DevKit uses the following third-party services that may collect data:</p>
                 <ul>
-                    <li>❌ No personal data transmitted to external servers</li>
-                    <li>❌ No location tracking</li>
-                    <li>❌ No analytics or usage statistics collection</li>
-                    <li>❌ No advertising or tracking cookies</li>
-                    <li>❌ No user accounts or authentication data</li>
+                    <li><strong>Device Identifier (UUID):</strong> A unique device identifier is generated and sent to our server for anonymous user identification</li>
+                    <li><strong>Firebase Analytics:</strong> Collects anonymous usage data to help us improve the app</li>
+                    <li><strong>Firebase Crashlytics:</strong> Collects crash reports and diagnostic data (disabled in debug builds)</li>
+                    <li><strong>Firebase Performance:</strong> Monitors app performance metrics</li>
+                    <li><strong>Google AdMob:</strong> Displays advertisements and may collect advertising identifiers</li>
+                </ul>
+
+                <h3>2.3 Information We Do NOT Collect</h3>
+                <ul>
+                    <li>❌ Personal identification information (name, email, phone number)</li>
+                    <li>❌ Location data</li>
+                    <li>❌ Contacts or call logs</li>
+                    <li>❌ Photos or media files</li>
+                    <li>❌ Passwords or financial information</li>
                 </ul>
             </section>
 
             <section>
                 <h2>3. How We Use Information</h2>
-                <p>All data processing occurs locally on your device. The information is used solely to:</p>
+                <p>We use the collected information for the following purposes:</p>
                 <ul>
                     <li>Display installed applications and their information</li>
                     <li>Show device specifications and system information</li>
                     <li>Provide developer tools and utilities</li>
                     <li>Save your preference settings</li>
+                    <li>Improve app performance and user experience through analytics</li>
+                    <li>Identify and fix bugs through crash reporting</li>
+                    <li>Display relevant advertisements</li>
+                    <li>Provide user feedback functionality</li>
                 </ul>
-                <p><strong>No data is transmitted to external servers or third parties.</strong></p>
             </section>
 
             <section>
                 <h2>4. Data Storage</h2>
-                <p>All data is stored locally on your device using:</p>
+                <p>Local data is stored on your device using:</p>
                 <ul>
                     <li>Room database for structured data</li>
-                    <li>SharedPreferences for user settings</li>
+                    <li>SharedPreferences/DataStore for user settings</li>
                     <li>Local file system for exported files</li>
                 </ul>
-                <p>You can clear all app data at any time through Android Settings > Apps > DevKit > Storage > Clear Data.</p>
+                <p>Server-side data (device UUID, feedback submissions) is stored securely on our servers.</p>
+                <p>You can clear all local app data at any time through Android Settings > Apps > DevKit > Storage > Clear Data.</p>
             </section>
 
             <section>
@@ -61,25 +75,32 @@ const privacyContent = {
                     <li><strong>QUERY_ALL_PACKAGES:</strong> To list and display installed applications</li>
                     <li><strong>CAMERA:</strong> For QR code scanning functionality</li>
                     <li><strong>READ/WRITE_EXTERNAL_STORAGE:</strong> To export APK files and save data</li>
-                    <li><strong>SYSTEM_ALERT_WINDOW:</strong> For overlay features and floating windows</li>
-                    <li><strong>INTERNET:</strong> Only to open external links in browser (no data transmission)</li>
+                    <li><strong>SYSTEM_ALERT_WINDOW:</strong> For overlay features (Current Activity, Color Picker)</li>
+                    <li><strong>PACKAGE_USAGE_STATS:</strong> For Current Activity monitoring feature</li>
+                    <li><strong>INTERNET:</strong> For third-party services and server communication</li>
+                    <li><strong>ACCESS_NETWORK_STATE/ACCESS_WIFI_STATE:</strong> To display network information</li>
                 </ul>
             </section>
 
             <section>
                 <h2>6. Third-Party Services</h2>
-                <p>DevKit does NOT use any third-party services, including:</p>
+                <p>DevKit integrates the following third-party services:</p>
                 <ul>
-                    <li>No analytics services (e.g., Google Analytics, Firebase Analytics)</li>
-                    <li>No advertising networks</li>
-                    <li>No crash reporting services</li>
-                    <li>No tracking or attribution services</li>
+                    <li><strong>Google Firebase Analytics:</strong> Usage analytics - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+                    <li><strong>Google Firebase Crashlytics:</strong> Crash reporting - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+                    <li><strong>Google Firebase Performance:</strong> Performance monitoring - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+                    <li><strong>Google AdMob:</strong> Advertising - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
                 </ul>
+                <p>These third-party services have their own privacy policies. We encourage you to review them.</p>
             </section>
 
             <section>
                 <h2>7. Data Sharing</h2>
-                <p>We do not share, sell, rent, or transmit any data to third parties. All data remains on your device.</p>
+                <p>We do not sell or rent your personal data to third parties. Data may be shared with:</p>
+                <ul>
+                    <li>Google services (Firebase, AdMob) as described in Section 6</li>
+                    <li>Our backend servers for anonymous user identification and feedback</li>
+                </ul>
             </section>
 
             <section>
@@ -89,7 +110,13 @@ const privacyContent = {
 
             <section>
                 <h2>9. Security</h2>
-                <p>Since all data is stored locally on your device, security depends on your device's security measures. We recommend:</p>
+                <p>We implement appropriate security measures to protect your data:</p>
+                <ul>
+                    <li>HTTPS encryption for all server communications</li>
+                    <li>Token-based authentication for API requests</li>
+                    <li>Crashlytics collection is disabled in debug builds</li>
+                </ul>
+                <p>We also recommend:</p>
                 <ul>
                     <li>Keep your device OS updated</li>
                     <li>Use device encryption</li>
@@ -99,7 +126,7 @@ const privacyContent = {
 
             <section>
                 <h2>10. Changes to This Policy</h2>
-                <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date.</p>
+                <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
             </section>
 
             <section>
@@ -112,9 +139,11 @@ const privacyContent = {
                 <h2>12. Your Rights</h2>
                 <p>You have the right to:</p>
                 <ul>
-                    <li>Access all data stored by the app</li>
-                    <li>Delete all app data at any time</li>
-                    <li>Uninstall the app to remove all associated data</li>
+                    <li>Access all local data stored by the app</li>
+                    <li>Delete all local app data at any time</li>
+                    <li>Opt out of personalized advertising through your device settings</li>
+                    <li>Uninstall the app to remove all local data</li>
+                    <li>Request deletion of server-side data by contacting us</li>
                 </ul>
             </section>
         </div>
@@ -127,56 +156,70 @@ const privacyContent = {
     'zh-cn': `
         <div class="header">
             <h1>隐私政策</h1>
-            <p class="last-updated">最后更新：2026年1月14日</p>
+            <p class="last-updated">最后更新：2026年1月16日</p>
         </div>
         <div class="content">
             <section>
                 <h2>1. 简介</h2>
-                <p>DevKit（"我们"、"我们的"或"本应用"）致力于保护您的隐私。本隐私政策说明我们在您使用Android开发者工具应用时如何处理信息。</p>
+                <p>DevKit（"我们"、"我们的"或"本应用"）致力于保护您的隐私。本隐私政策说明我们在您使用Android开发者工具应用时如何收集、使用和保护信息。</p>
             </section>
 
             <section>
                 <h2>2. 我们收集的信息</h2>
                 <h3>2.1 本地信息</h3>
-                <p>DevKit收集的所有信息都存储在您的设备本地，绝不会传输到外部服务器：</p>
+                <p>以下信息存储在您的设备本地：</p>
                 <ul>
                     <li><strong>已安装应用列表：</strong>用于显示和管理您设备上的应用</li>
                     <li><strong>设备信息：</strong>硬件规格、Android版本、屏幕分辨率等显示用途</li>
                     <li><strong>用户偏好设置：</strong>您的应用设置和自定义选项</li>
-                    <li><strong>二维码历史记录：</strong>之前扫描的二维码（仅本地存储）</li>
+                    <li><strong>二维码历史记录：</strong>之前扫描的二维码</li>
                 </ul>
 
-                <h3>2.2 我们不收集的信息</h3>
+                <h3>2.2 第三方服务收集的信息</h3>
+                <p>DevKit使用以下可能收集数据的第三方服务：</p>
                 <ul>
-                    <li>❌ 不向外部服务器传输个人数据</li>
-                    <li>❌ 不跟踪位置信息</li>
-                    <li>❌ 不收集分析或使用统计数据</li>
-                    <li>❌ 不使用广告或跟踪Cookie</li>
-                    <li>❌ 不收集用户账户或身份验证数据</li>
+                    <li><strong>设备标识符（UUID）：</strong>生成唯一设备标识符并发送到我们的服务器，用于匿名用户识别</li>
+                    <li><strong>Firebase Analytics：</strong>收集匿名使用数据，帮助我们改进应用</li>
+                    <li><strong>Firebase Crashlytics：</strong>收集崩溃报告和诊断数据（在调试版本中禁用）</li>
+                    <li><strong>Firebase Performance：</strong>监控应用性能指标</li>
+                    <li><strong>Google AdMob：</strong>显示广告，可能收集广告标识符</li>
+                </ul>
+
+                <h3>2.3 我们不收集的信息</h3>
+                <ul>
+                    <li>❌ 个人身份信息（姓名、邮箱、电话号码）</li>
+                    <li>❌ 位置数据</li>
+                    <li>❌ 通讯录或通话记录</li>
+                    <li>❌ 照片或媒体文件</li>
+                    <li>❌ 密码或财务信息</li>
                 </ul>
             </section>
 
             <section>
                 <h2>3. 我们如何使用信息</h2>
-                <p>所有数据处理都在您的设备本地进行。这些信息仅用于：</p>
+                <p>我们将收集的信息用于以下目的：</p>
                 <ul>
                     <li>显示已安装的应用及其信息</li>
                     <li>显示设备规格和系统信息</li>
                     <li>提供开发者工具和实用程序</li>
                     <li>保存您的偏好设置</li>
+                    <li>通过分析改进应用性能和用户体验</li>
+                    <li>通过崩溃报告识别和修复错误</li>
+                    <li>显示相关广告</li>
+                    <li>提供用户反馈功能</li>
                 </ul>
-                <p><strong>不会向外部服务器或第三方传输任何数据。</strong></p>
             </section>
 
             <section>
                 <h2>4. 数据存储</h2>
-                <p>所有数据都使用以下方式存储在您的设备本地：</p>
+                <p>本地数据使用以下方式存储在您的设备上：</p>
                 <ul>
                     <li>Room数据库用于结构化数据</li>
-                    <li>SharedPreferences用于用户设置</li>
+                    <li>SharedPreferences/DataStore用于用户设置</li>
                     <li>本地文件系统用于导出的文件</li>
                 </ul>
-                <p>您可以随时通过Android设置 > 应用 > DevKit > 存储 > 清除数据来清除所有应用数据。</p>
+                <p>服务器端数据（设备UUID、反馈提交）安全存储在我们的服务器上。</p>
+                <p>您可以随时通过Android设置 > 应用 > DevKit > 存储 > 清除数据来清除所有本地应用数据。</p>
             </section>
 
             <section>
@@ -186,25 +229,32 @@ const privacyContent = {
                     <li><strong>QUERY_ALL_PACKAGES：</strong>列出和显示已安装的应用</li>
                     <li><strong>CAMERA：</strong>用于二维码扫描功能</li>
                     <li><strong>READ/WRITE_EXTERNAL_STORAGE：</strong>导出APK文件和保存数据</li>
-                    <li><strong>SYSTEM_ALERT_WINDOW：</strong>用于悬浮窗功能</li>
-                    <li><strong>INTERNET：</strong>仅用于在浏览器中打开外部链接（不传输数据）</li>
+                    <li><strong>SYSTEM_ALERT_WINDOW：</strong>用于悬浮窗功能（当前Activity、取色器）</li>
+                    <li><strong>PACKAGE_USAGE_STATS：</strong>用于当前Activity监控功能</li>
+                    <li><strong>INTERNET：</strong>用于第三方服务和服务器通信</li>
+                    <li><strong>ACCESS_NETWORK_STATE/ACCESS_WIFI_STATE：</strong>显示网络信息</li>
                 </ul>
             </section>
 
             <section>
                 <h2>6. 第三方服务</h2>
-                <p>DevKit不使用任何第三方服务，包括：</p>
+                <p>DevKit集成了以下第三方服务：</p>
                 <ul>
-                    <li>无分析服务（如Google Analytics、Firebase Analytics）</li>
-                    <li>无广告网络</li>
-                    <li>无崩溃报告服务</li>
-                    <li>无跟踪或归因服务</li>
+                    <li><strong>Google Firebase Analytics：</strong>使用分析 - <a href="https://firebase.google.com/support/privacy" target="_blank">隐私政策</a></li>
+                    <li><strong>Google Firebase Crashlytics：</strong>崩溃报告 - <a href="https://firebase.google.com/support/privacy" target="_blank">隐私政策</a></li>
+                    <li><strong>Google Firebase Performance：</strong>性能监控 - <a href="https://firebase.google.com/support/privacy" target="_blank">隐私政策</a></li>
+                    <li><strong>Google AdMob：</strong>广告 - <a href="https://policies.google.com/privacy" target="_blank">隐私政策</a></li>
                 </ul>
+                <p>这些第三方服务有各自的隐私政策，我们建议您查阅。</p>
             </section>
 
             <section>
                 <h2>7. 数据共享</h2>
-                <p>我们不会与第三方共享、出售、出租或传输任何数据。所有数据都保留在您的设备上。</p>
+                <p>我们不会向第三方出售或出租您的个人数据。数据可能与以下方共享：</p>
+                <ul>
+                    <li>Google服务（Firebase、AdMob），如第6节所述</li>
+                    <li>我们的后端服务器，用于匿名用户识别和反馈</li>
+                </ul>
             </section>
 
             <section>
@@ -214,7 +264,13 @@ const privacyContent = {
 
             <section>
                 <h2>9. 安全性</h2>
-                <p>由于所有数据都存储在您的设备本地，安全性取决于您设备的安全措施。我们建议：</p>
+                <p>我们采取适当的安全措施来保护您的数据：</p>
+                <ul>
+                    <li>所有服务器通信使用HTTPS加密</li>
+                    <li>API请求使用基于令牌的身份验证</li>
+                    <li>Crashlytics收集在调试版本中禁用</li>
+                </ul>
+                <p>我们还建议：</p>
                 <ul>
                     <li>保持设备操作系统更新</li>
                     <li>使用设备加密</li>
@@ -224,7 +280,7 @@ const privacyContent = {
 
             <section>
                 <h2>10. 政策变更</h2>
-                <p>我们可能会不时更新本隐私政策。更改将发布在本页面上，并更新"最后更新"日期。</p>
+                <p>我们可能会不时更新本隐私政策。更改将发布在本页面上，并更新"最后更新"日期。更改后继续使用本应用即表示接受更新后的政策。</p>
             </section>
 
             <section>
@@ -237,9 +293,11 @@ const privacyContent = {
                 <h2>12. 您的权利</h2>
                 <p>您有权：</p>
                 <ul>
-                    <li>访问应用存储的所有数据</li>
-                    <li>随时删除所有应用数据</li>
-                    <li>卸载应用以删除所有相关数据</li>
+                    <li>访问应用存储的所有本地数据</li>
+                    <li>随时删除所有本地应用数据</li>
+                    <li>通过设备设置退出个性化广告</li>
+                    <li>卸载应用以删除所有本地数据</li>
+                    <li>通过联系我们请求删除服务器端数据</li>
                 </ul>
             </section>
         </div>
