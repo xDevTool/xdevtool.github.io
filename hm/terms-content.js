@@ -2,7 +2,7 @@ const termsContent = {
     'en': `
         <div class="header">
             <h1>User Agreement</h1>
-            <p class="last-updated">Last Updated: April 10, 2026</p>
+            <p class="last-updated">Last Updated: April 12, 2026</p>
         </div>
         <div class="content">
             <section>
@@ -14,11 +14,11 @@ const termsContent = {
                 <h2>2. Product Description</h2>
                 <p>DevTool-HM is a HarmonyOS developer toolbox that may provide features such as:</p>
                 <ul>
-                    <li>Device information display</li>
-                    <li>Application snapshot import and inspection</li>
-                    <li>QR code scanning and generation</li>
-                    <li>Payload preview, encoding, and debugging utilities</li>
-                    <li>Local developer assistance tools</li>
+                    <li>Device, display, battery, storage, and network information display</li>
+                    <li>QR code and barcode scanning, generation, export, and sharing</li>
+                    <li>Markdown document editing, preview, import, and export</li>
+                    <li>Text comparison, text encoding, image color picking, color conversion, and system symbol browsing</li>
+                    <li>DeepLink and Ability jump debugging, plus selected system shortcut entries</li>
                 </ul>
             </section>
 
@@ -41,12 +41,12 @@ const termsContent = {
 
             <section>
                 <h2>5. Your Responsibility</h2>
-                <p>You are responsible for the files, payloads, snapshots, links, and debugging data you import, generate, export, or share through DevTool-HM. You must ensure you have the right to use and handle that content.</p>
+                <p>You are responsible for the files, images, Markdown documents, payloads, snapshots, links, clipboard content, and debugging data you import, generate, export, copy, or share through DevTool-HM. You must ensure you have the right to use and handle that content, and you should avoid placing sensitive data into screenshots, shared files, clipboard copies, or debugging parameters unless necessary.</p>
             </section>
 
             <section>
                 <h2>6. System Capability Limits</h2>
-                <p>Some functions depend on HarmonyOS permissions, system interfaces, device capabilities, or desktop-side tools. We do not guarantee that every feature will be available on every device or every OS version.</p>
+                <p>Some functions depend on HarmonyOS permissions, system interfaces, device capabilities, local file providers, network conditions, or desktop-side tools. We do not guarantee that every feature will be available on every device or every OS version.</p>
             </section>
 
             <section>
@@ -66,7 +66,7 @@ const termsContent = {
 
             <section>
                 <h2>10. Changes</h2>
-                <p>We may update this User Agreement from time to time. The updated version will be published on this page.</p>
+                <p>We may update this User Agreement from time to time. The updated version will be published in the app and on the official site.</p>
             </section>
 
             <section>
@@ -83,7 +83,7 @@ const termsContent = {
     'zh-cn': `
         <div class="header">
             <h1>用户协议</h1>
-            <p class="last-updated">最后更新：2026年4月10日</p>
+            <p class="last-updated">最后更新：2026年4月12日</p>
         </div>
         <div class="content">
             <section>
@@ -95,11 +95,11 @@ const termsContent = {
                 <h2>2. 产品说明</h2>
                 <p>DevTool-HM 是一款 HarmonyOS 开发者工具箱，可能提供以下能力：</p>
                 <ul>
-                    <li>设备信息展示</li>
-                    <li>应用快照导入与查看</li>
-                    <li>二维码扫描与生成</li>
-                    <li>调试载荷预览、编码和调试工具</li>
-                    <li>本地开发辅助工具</li>
+                    <li>设备、显示、电池、存储和网络信息展示</li>
+                    <li>二维码与条形码扫描、生成、导出和分享</li>
+                    <li>Markdown 文档编辑、预览、导入和导出</li>
+                    <li>文本对比、文本编码、图片取色、颜色转换和系统图标浏览</li>
+                    <li>DeepLink / Ability 跳转调试，以及部分系统快捷入口</li>
                 </ul>
             </section>
 
@@ -122,12 +122,12 @@ const termsContent = {
 
             <section>
                 <h2>5. 用户责任</h2>
-                <p>您需对通过 DevTool-HM 导入、生成、导出或分享的文件、载荷、快照、链接及调试数据负责，并确保您有权使用和处理相关内容。</p>
+                <p>您需对通过 DevTool-HM 导入、生成、导出、复制或分享的文件、图片、Markdown 文档、载荷、快照、链接、剪贴板内容及调试数据负责，并确保您有权使用和处理相关内容。除非必要，建议不要在截图、分享文件、剪贴板内容或调试参数中放入敏感数据。</p>
             </section>
 
             <section>
                 <h2>6. 系统能力限制</h2>
-                <p>部分功能依赖 HarmonyOS 权限、系统接口、设备能力或桌面侧工具。我们不保证所有功能在每台设备或每个系统版本上都可用。</p>
+                <p>部分功能依赖 HarmonyOS 权限、系统接口、设备能力、本地文件提供方、网络条件或桌面侧工具。我们不保证所有功能在每台设备或每个系统版本上都可用。</p>
             </section>
 
             <section>
@@ -147,7 +147,7 @@ const termsContent = {
 
             <section>
                 <h2>10. 协议更新</h2>
-                <p>我们可能不时更新本用户协议。更新后的版本会发布在此页面。</p>
+                <p>我们可能不时更新本用户协议。更新后的版本会发布在应用内和官方网站。</p>
             </section>
 
             <section>

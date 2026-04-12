@@ -2,7 +2,7 @@ const privacyContent = {
     'en': `
         <div class="header">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: April 10, 2026</p>
+            <p class="last-updated">Last Updated: April 12, 2026</p>
         </div>
         <div class="content">
             <section>
@@ -14,11 +14,12 @@ const privacyContent = {
                 <h2>2. Information Processed by the App</h2>
                 <p>DevTool-HM mainly processes data locally on your device. Depending on the feature you use, the app may read or store:</p>
                 <ul>
-                    <li><strong>Preference settings:</strong> theme, language, and related UI preferences.</li>
-                    <li><strong>Imported app snapshots:</strong> JSON files you explicitly choose to import.</li>
-                    <li><strong>Scan history:</strong> QR code or barcode results generated through the in-app scan feature.</li>
-                    <li><strong>Payload and template history:</strong> content you enter for debugging, preview, or repeated use.</li>
-                    <li><strong>Basic device and bundle information:</strong> information displayed by the app to support developer tooling features.</li>
+                    <li><strong>Preference and consent settings:</strong> theme, language, and privacy-consent status.</li>
+                    <li><strong>Imported or exported local files:</strong> Markdown documents, JSON snapshots, images, and generated QR code PNG files that you explicitly choose through system pickers.</li>
+                    <li><strong>Tool content and local history:</strong> scan history, Markdown content, text comparison content, color values, QR code source content, and jump-debug parameters you enter or generate in the app.</li>
+                    <li><strong>Clipboard or share content you explicitly trigger:</strong> text, color values, QR content, symbol names, or files copied to the system pasteboard or shared through the system share panel when you tap copy/share actions.</li>
+                    <li><strong>Basic device, network, and bundle information:</strong> device, display, battery, storage, current network, and bundle data displayed by the app to support developer tooling features.</li>
+                    <li><strong>Analytics state and event data:</strong> limited usage-event data related to app launch, tab views, theme/language changes, and legal-document opens after you agree to the privacy terms.</li>
                 </ul>
             </section>
 
@@ -38,10 +39,12 @@ const privacyContent = {
                 <h2>4. How Data Is Used</h2>
                 <p>Processed data is used only to provide app functionality, including:</p>
                 <ul>
-                    <li>Displaying device and application information</li>
-                    <li>Saving your UI and tool preferences</li>
-                    <li>Supporting QR scanning, payload preview, and debugging workflows</li>
-                    <li>Restoring local history and templates for convenience</li>
+                    <li>Displaying device, network, and application information</li>
+                    <li>Saving your UI preferences, privacy-consent choice, and local tool state</li>
+                    <li>Supporting QR scanning, local document editing and preview, image color picking, color conversion, and jump-debug workflows</li>
+                    <li>Restoring local history and generated content for convenience</li>
+                    <li>Writing user-selected content to the system clipboard or system share panel when you explicitly request copy/share actions</li>
+                    <li>Reporting basic usage analytics after consent to help improve the product</li>
                 </ul>
             </section>
 
@@ -52,32 +55,34 @@ const privacyContent = {
 
             <section>
                 <h2>6. Permissions</h2>
-                <p>DevTool-HM may request system permissions only when a related feature is used:</p>
+                <p>DevTool-HM may request or use system capabilities only when a related feature is used:</p>
                 <ul>
                     <li><strong>Camera permission:</strong> used for QR code and barcode scanning.</li>
-                    <li><strong>File access through system picker:</strong> used when you explicitly import or export files.</li>
+                    <li><strong>File access through system pickers:</strong> used when you explicitly import images or Markdown files, or export generated content.</li>
+                    <li><strong>Network information capability:</strong> used to display current network type, interface, IP, DNS, route, and related diagnostics.</li>
+                    <li><strong>Internet capability:</strong> used for optional analytics reporting after consent and for network-dependent developer workflows.</li>
                 </ul>
-                <p>The app requests permissions on demand rather than continuously collecting background data.</p>
+                <p>The app requests or uses these capabilities based on feature usage and does not continuously collect unrelated background data.</p>
             </section>
 
             <section>
                 <h2>7. Data Sharing</h2>
-                <p>DevTool-HM does not sell your data. The app is designed to work locally, and your data is not uploaded to our servers as part of normal use.</p>
+                <p>DevTool-HM does not sell your data. Most tool content stays on your device. If you agree to the privacy terms, limited usage-event data may be sent to the analytics service provider described below for product analytics purposes. In addition, files or text are sent to other apps only when you explicitly invoke a system share action.</p>
             </section>
 
             <section>
                 <h2>8. Third-Party Services</h2>
-                <p>As of this version, DevTool-HM does not rely on mandatory third-party analytics, advertising, or account services to provide its core functionality.</p>
+                <p>DevTool-HM integrates the Umeng analytics SDK. The SDK may be preloaded when the app starts, and analytics event reporting is enabled only after you agree to the privacy terms in the app. Reported events are limited to product-usage events such as app launch, tab view, theme/language changes, and opening legal documents. Third-party services process their data according to their own terms and policies.</p>
             </section>
 
             <section>
                 <h2>9. Security</h2>
-                <p>We recommend that you protect your device with system security features such as a screen lock and system updates. Imported files, generated payloads, and exported content should be handled carefully because they may contain technical or internal project data.</p>
+                <p>We recommend that you protect your device with system security features such as a screen lock and system updates. Imported files, generated payloads, exported content, clipboard contents, and shared files should be handled carefully because they may contain technical or internal project data.</p>
             </section>
 
             <section>
                 <h2>10. Changes to This Policy</h2>
-                <p>We may update this Privacy Policy from time to time. The latest version will be published on this page with an updated date.</p>
+                <p>We may update this Privacy Policy from time to time. The latest version will be published in the app and on the official site with an updated date.</p>
             </section>
 
             <section>
@@ -94,7 +99,7 @@ const privacyContent = {
     'zh-cn': `
         <div class="header">
             <h1>隐私政策</h1>
-            <p class="last-updated">最后更新：2026年4月10日</p>
+            <p class="last-updated">最后更新：2026年4月12日</p>
         </div>
         <div class="content">
             <section>
@@ -106,11 +111,12 @@ const privacyContent = {
                 <h2>2. 应用处理的信息</h2>
                 <p>DevTool-HM 主要在您的设备本地处理数据。根据您使用的功能，应用可能读取或保存以下信息：</p>
                 <ul>
-                    <li><strong>偏好设置：</strong>主题、语言及相关界面设置。</li>
-                    <li><strong>导入的应用快照：</strong>您主动选择导入的 JSON 文件内容。</li>
-                    <li><strong>扫码历史：</strong>通过应用内扫码功能得到的二维码或条形码结果。</li>
-                    <li><strong>调试载荷与模板历史：</strong>您主动输入、保存或重复使用的调试内容。</li>
-                    <li><strong>基础设备与应用信息：</strong>用于展示开发工具能力所需的设备和包信息。</li>
+                    <li><strong>偏好与同意状态：</strong>主题、语言以及隐私同意状态。</li>
+                    <li><strong>导入或导出的本地文件：</strong>您通过系统选择器主动选择的 Markdown 文档、JSON 快照、图片，以及应用生成并导出的二维码 PNG 文件。</li>
+                    <li><strong>工具内容与本地历史：</strong>扫码历史、Markdown 文本、文本对比内容、颜色值、二维码源内容，以及您在应用内输入或生成的跳转调试参数。</li>
+                    <li><strong>您主动触发的剪贴板或分享内容：</strong>当您点击复制或分享操作时，写入系统剪贴板或通过系统分享面板发送的文本、颜色值、二维码内容、图标名称或文件。</li>
+                    <li><strong>基础设备、网络与包信息：</strong>用于展示开发工具能力所需的设备、显示、电池、存储、当前网络和应用包信息。</li>
+                    <li><strong>统计状态与事件数据：</strong>在您同意隐私条款后，与应用启动、Tab 浏览、主题/语言切换、法律文档打开相关的有限使用事件数据。</li>
                 </ul>
             </section>
 
@@ -130,10 +136,12 @@ const privacyContent = {
                 <h2>4. 数据用途</h2>
                 <p>这些数据仅用于提供应用功能，包括：</p>
                 <ul>
-                    <li>展示设备信息和应用信息</li>
-                    <li>保存您的界面和工具偏好</li>
-                    <li>支持扫码、载荷预览和调试工作流</li>
-                    <li>恢复本地历史记录与模板，方便重复使用</li>
+                    <li>展示设备、网络和应用信息</li>
+                    <li>保存您的界面偏好、隐私同意选择和本地工具状态</li>
+                    <li>支持扫码、本地文档编辑与预览、图片取色、颜色转换以及跳转调试工作流</li>
+                    <li>恢复本地历史记录和生成内容，方便重复使用</li>
+                    <li>在您主动点击复制或分享时，将相关内容写入系统剪贴板或调起系统分享面板</li>
+                    <li>在获得同意后上报基础使用统计，用于改进产品</li>
                 </ul>
             </section>
 
@@ -144,32 +152,34 @@ const privacyContent = {
 
             <section>
                 <h2>6. 权限说明</h2>
-                <p>DevTool-HM 仅在相关功能被使用时申请系统权限：</p>
+                <p>DevTool-HM 仅在相关功能被使用时申请或使用系统能力：</p>
                 <ul>
                     <li><strong>相机权限：</strong>用于二维码和条形码扫描。</li>
-                    <li><strong>通过系统文件选择器访问文件：</strong>用于您主动执行的导入或导出操作。</li>
+                    <li><strong>通过系统文件选择器访问文件：</strong>用于您主动导入图片或 Markdown 文件，或导出生成内容。</li>
+                    <li><strong>网络信息能力：</strong>用于展示当前网络类型、接口、IP、DNS、路由等诊断信息。</li>
+                    <li><strong>网络能力：</strong>用于在获得同意后进行可选的统计上报，以及支持依赖网络的开发调试场景。</li>
                 </ul>
-                <p>应用采用按需申请权限的方式，不会持续在后台收集数据。</p>
+                <p>应用会根据具体功能按需使用这些能力，不会持续收集与功能无关的后台数据。</p>
             </section>
 
             <section>
                 <h2>7. 数据共享</h2>
-                <p>DevTool-HM 不会出售您的数据。应用默认以本地能力为主，正常使用过程中不会将上述数据上传到我们的服务器。</p>
+                <p>DevTool-HM 不会出售您的数据。大多数工具内容只保留在本地设备中。若您同意隐私条款，有限的使用事件数据可能会发送给下述统计服务提供方，用于产品统计分析。另外，只有在您主动执行系统分享操作时，相关文本或文件才会被发送给其他应用。</p>
             </section>
 
             <section>
                 <h2>8. 第三方服务</h2>
-                <p>截至当前版本，DevTool-HM 的核心功能不依赖强制性的第三方统计、广告或账号服务。</p>
+                <p>DevTool-HM 集成了友盟统计 SDK。该 SDK 可能在应用启动时进行预加载，而统计事件上报仅会在您于应用内同意隐私条款后启用。上报内容限于应用启动、Tab 浏览、主题/语言切换、法律文档打开等产品使用事件。第三方服务会按照其自身的条款与隐私政策处理相关数据。</p>
             </section>
 
             <section>
                 <h2>9. 安全建议</h2>
-                <p>建议您通过系统锁屏、系统更新等方式保护设备安全。由于导入文件、调试载荷和导出内容可能包含技术信息或项目内部数据，请您谨慎处理相关内容。</p>
+                <p>建议您通过系统锁屏、系统更新等方式保护设备安全。由于导入文件、调试载荷、导出内容、剪贴板内容和分享文件可能包含技术信息或项目内部数据，请您谨慎处理相关内容。</p>
             </section>
 
             <section>
                 <h2>10. 政策更新</h2>
-                <p>我们可能会不时更新本隐私政策。最新版本会发布在此页面，并标注最近更新时间。</p>
+                <p>我们可能不时更新本隐私政策。最新版本会发布在应用内和官方网站，并标注最近更新时间。</p>
             </section>
 
             <section>
