@@ -7,12 +7,12 @@ const termsContent = {
         <div class="content">
             <section>
                 <h2>1. Acceptance</h2>
-                <p>By downloading, installing, or using DevTool-HM, you agree to this User Agreement. If you do not agree, do not use the app.</p>
+                <p>By downloading, installing, or using DevKit, you agree to this User Agreement. If you do not agree, do not use the app.</p>
             </section>
 
             <section>
                 <h2>2. Product Description</h2>
-                <p>DevTool-HM is a HarmonyOS developer toolbox that may provide features such as:</p>
+                <p>DevKit is a HarmonyOS developer toolbox that may provide features such as:</p>
                 <ul>
                     <li>Device, display, battery, storage, and network information display</li>
                     <li>QR code and barcode scanning, generation, export, and sharing</li>
@@ -24,7 +24,7 @@ const termsContent = {
 
             <section>
                 <h2>3. License</h2>
-                <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use DevTool-HM for lawful personal, testing, or development purposes.</p>
+                <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use DevKit for lawful personal, testing, or development purposes.</p>
             </section>
 
             <section>
@@ -41,7 +41,7 @@ const termsContent = {
 
             <section>
                 <h2>5. Your Responsibility</h2>
-                <p>You are responsible for the files, images, Markdown documents, payloads, snapshots, links, clipboard content, and debugging data you import, generate, export, copy, or share through DevTool-HM. You must ensure you have the right to use and handle that content, and you should avoid placing sensitive data into screenshots, shared files, clipboard copies, or debugging parameters unless necessary.</p>
+                <p>You are responsible for the files, images, Markdown documents, payloads, snapshots, links, clipboard content, and debugging data you import, generate, export, copy, or share through DevKit. You must ensure you have the right to use and handle that content, and you should avoid placing sensitive data into screenshots, shared files, clipboard copies, or debugging parameters unless necessary.</p>
             </section>
 
             <section>
@@ -51,7 +51,7 @@ const termsContent = {
 
             <section>
                 <h2>7. No Warranty</h2>
-                <p>DevTool-HM is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted service, error-free behavior, or suitability for a specific business scenario.</p>
+                <p>DevKit is provided on an "as is" and "as available" basis. We do not guarantee uninterrupted service, error-free behavior, or suitability for a specific business scenario.</p>
             </section>
 
             <section>
@@ -61,7 +61,7 @@ const termsContent = {
 
             <section>
                 <h2>9. Privacy</h2>
-                <p>Your use of DevTool-HM is also subject to the <a href="./privacy.html">Privacy Policy</a>.</p>
+                <p>Your use of DevKit is also subject to the <a href="./privacy.html">Privacy Policy</a>.</p>
             </section>
 
             <section>
@@ -88,12 +88,12 @@ const termsContent = {
         <div class="content">
             <section>
                 <h2>1. 协议接受</h2>
-                <p>当您下载、安装或使用 DevTool-HM 时，即表示您同意本用户协议。如您不同意，请停止使用本应用。</p>
+                <p>当您下载、安装或使用 DevKit 时，即表示您同意本用户协议。如您不同意，请停止使用本应用。</p>
             </section>
 
             <section>
                 <h2>2. 产品说明</h2>
-                <p>DevTool-HM 是一款 HarmonyOS 开发者工具箱，可能提供以下能力：</p>
+                <p>DevKit 是一款 HarmonyOS 开发者工具箱，可能提供以下能力：</p>
                 <ul>
                     <li>设备、显示、电池、存储和网络信息展示</li>
                     <li>二维码与条形码扫描、生成、导出和分享</li>
@@ -105,7 +105,7 @@ const termsContent = {
 
             <section>
                 <h2>3. 使用许可</h2>
-                <p>在您遵守本协议的前提下，我们授予您有限的、非独占的、不可转让的、可撤销的许可，以便您出于合法的个人、测试或开发目的使用 DevTool-HM。</p>
+                <p>在您遵守本协议的前提下，我们授予您有限的、非独占的、不可转让的、可撤销的许可，以便您出于合法的个人、测试或开发目的使用 DevKit。</p>
             </section>
 
             <section>
@@ -122,7 +122,7 @@ const termsContent = {
 
             <section>
                 <h2>5. 用户责任</h2>
-                <p>您需对通过 DevTool-HM 导入、生成、导出、复制或分享的文件、图片、Markdown 文档、载荷、快照、链接、剪贴板内容及调试数据负责，并确保您有权使用和处理相关内容。除非必要，建议不要在截图、分享文件、剪贴板内容或调试参数中放入敏感数据。</p>
+                <p>您需对通过 DevKit 导入、生成、导出、复制或分享的文件、图片、Markdown 文档、载荷、快照、链接、剪贴板内容及调试数据负责，并确保您有权使用和处理相关内容。除非必要，建议不要在截图、分享文件、剪贴板内容或调试参数中放入敏感数据。</p>
             </section>
 
             <section>
@@ -132,7 +132,7 @@ const termsContent = {
 
             <section>
                 <h2>7. 免责说明</h2>
-                <p>DevTool-HM 按“现状”和“可用”基础提供。我们不保证服务不中断、无错误，也不保证其适用于特定业务场景。</p>
+                <p>DevKit 按“现状”和“可用”基础提供。我们不保证服务不中断、无错误，也不保证其适用于特定业务场景。</p>
             </section>
 
             <section>
@@ -142,7 +142,7 @@ const termsContent = {
 
             <section>
                 <h2>9. 隐私政策</h2>
-                <p>您对 DevTool-HM 的使用同时受 <a href="./privacy.html">隐私政策</a> 约束。</p>
+                <p>您对 DevKit 的使用同时受 <a href="./privacy.html">隐私政策</a> 约束。</p>
             </section>
 
             <section>

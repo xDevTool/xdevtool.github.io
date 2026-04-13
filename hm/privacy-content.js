@@ -7,12 +7,12 @@ const privacyContent = {
         <div class="content">
             <section>
                 <h2>1. Introduction</h2>
-                <p>DevTool-HM is a HarmonyOS developer toolbox. This Privacy Policy explains how the app handles information when you use its local debugging and utility features.</p>
+                <p>DevKit is a HarmonyOS developer toolbox. This Privacy Policy explains how the app handles information when you use its local debugging and utility features.</p>
             </section>
 
             <section>
                 <h2>2. Information Processed by the App</h2>
-                <p>DevTool-HM mainly processes data locally on your device. Depending on the feature you use, the app may read or store:</p>
+                <p>DevKit mainly processes data locally on your device. Depending on the feature you use, the app may read or store:</p>
                 <ul>
                     <li><strong>Preference and consent settings:</strong> theme, language, and privacy-consent status.</li>
                     <li><strong>Imported or exported local files:</strong> Markdown documents, JSON snapshots, images, and generated QR code PNG files that you explicitly choose through system pickers.</li>
@@ -25,7 +25,7 @@ const privacyContent = {
 
             <section>
                 <h2>3. Information We Do Not Collect by Default</h2>
-                <p>DevTool-HM does not require an account and does not collect personal identity information by default, including:</p>
+                <p>DevKit does not require an account and does not collect personal identity information by default, including:</p>
                 <ul>
                     <li>Name, phone number, or email address</li>
                     <li>Contacts, call history, or messages</li>
@@ -50,12 +50,12 @@ const privacyContent = {
 
             <section>
                 <h2>5. Local Storage</h2>
-                <p>Most data used by DevTool-HM is stored locally on your device through HarmonyOS application storage. You can remove this data by clearing the app data or uninstalling the app.</p>
+                <p>Most data used by DevKit is stored locally on your device through HarmonyOS application storage. You can remove this data by clearing the app data or uninstalling the app.</p>
             </section>
 
             <section>
                 <h2>6. Permissions</h2>
-                <p>DevTool-HM may request or use system capabilities only when a related feature is used:</p>
+                <p>DevKit may request or use system capabilities only when a related feature is used:</p>
                 <ul>
                     <li><strong>Camera permission:</strong> used for QR code and barcode scanning.</li>
                     <li><strong>File access through system pickers:</strong> used when you explicitly import images or Markdown files, or export generated content.</li>
@@ -67,12 +67,12 @@ const privacyContent = {
 
             <section>
                 <h2>7. Data Sharing</h2>
-                <p>DevTool-HM does not sell your data. Most tool content stays on your device. If you agree to the privacy terms, limited usage-event data may be sent to the analytics service provider described below for product analytics purposes. In addition, files or text are sent to other apps only when you explicitly invoke a system share action.</p>
+                <p>DevKit does not sell your data. Most tool content stays on your device. If you agree to the privacy terms, limited usage-event data may be sent to the analytics service provider described below for product analytics purposes. In addition, files or text are sent to other apps only when you explicitly invoke a system share action.</p>
             </section>
 
             <section>
                 <h2>8. Third-Party Services</h2>
-                <p>DevTool-HM integrates the Umeng analytics SDK. The SDK may be preloaded when the app starts, and analytics event reporting is enabled only after you agree to the privacy terms in the app. Reported events are limited to product-usage events such as app launch, tab view, theme/language changes, and opening legal documents. Third-party services process their data according to their own terms and policies.</p>
+                <p>DevKit integrates the Umeng analytics SDK. The SDK may be preloaded when the app starts, and analytics event reporting is enabled only after you agree to the privacy terms in the app. Reported events are limited to product-usage events such as app launch, tab view, theme/language changes, and opening legal documents. Third-party services process their data according to their own terms and policies.</p>
             </section>
 
             <section>
@@ -104,12 +104,12 @@ const privacyContent = {
         <div class="content">
             <section>
                 <h2>1. 说明</h2>
-                <p>DevTool-HM 是一款 HarmonyOS 开发者工具箱。本隐私政策说明您在使用本应用本地调试与工具能力时，相关信息如何被处理。</p>
+                <p>DevKit 是一款 HarmonyOS 开发者工具箱。本隐私政策说明您在使用本应用本地调试与工具能力时，相关信息如何被处理。</p>
             </section>
 
             <section>
                 <h2>2. 应用处理的信息</h2>
-                <p>DevTool-HM 主要在您的设备本地处理数据。根据您使用的功能，应用可能读取或保存以下信息：</p>
+                <p>DevKit 主要在您的设备本地处理数据。根据您使用的功能，应用可能读取或保存以下信息：</p>
                 <ul>
                     <li><strong>偏好与同意状态：</strong>主题、语言以及隐私同意状态。</li>
                     <li><strong>导入或导出的本地文件：</strong>您通过系统选择器主动选择的 Markdown 文档、JSON 快照、图片，以及应用生成并导出的二维码 PNG 文件。</li>
@@ -122,7 +122,7 @@ const privacyContent = {
 
             <section>
                 <h2>3. 默认不收集的信息</h2>
-                <p>DevTool-HM 不要求您注册账号，也不会默认收集以下个人身份信息：</p>
+                <p>DevKit 不要求您注册账号，也不会默认收集以下个人身份信息：</p>
                 <ul>
                     <li>姓名、手机号、邮箱地址</li>
                     <li>通讯录、通话记录、短信内容</li>
@@ -147,12 +147,12 @@ const privacyContent = {
 
             <section>
                 <h2>5. 本地存储</h2>
-                <p>DevTool-HM 使用的大部分数据都存储在您的设备本地 HarmonyOS 应用存储中。您可以通过清除应用数据或卸载应用删除这些内容。</p>
+                <p>DevKit 使用的大部分数据都存储在您的设备本地 HarmonyOS 应用存储中。您可以通过清除应用数据或卸载应用删除这些内容。</p>
             </section>
 
             <section>
                 <h2>6. 权限说明</h2>
-                <p>DevTool-HM 仅在相关功能被使用时申请或使用系统能力：</p>
+                <p>DevKit 仅在相关功能被使用时申请或使用系统能力：</p>
                 <ul>
                     <li><strong>相机权限：</strong>用于二维码和条形码扫描。</li>
                     <li><strong>通过系统文件选择器访问文件：</strong>用于您主动导入图片或 Markdown 文件，或导出生成内容。</li>
@@ -164,12 +164,12 @@ const privacyContent = {
 
             <section>
                 <h2>7. 数据共享</h2>
-                <p>DevTool-HM 不会出售您的数据。大多数工具内容只保留在本地设备中。若您同意隐私条款，有限的使用事件数据可能会发送给下述统计服务提供方，用于产品统计分析。另外，只有在您主动执行系统分享操作时，相关文本或文件才会被发送给其他应用。</p>
+                <p>DevKit 不会出售您的数据。大多数工具内容只保留在本地设备中。若您同意隐私条款，有限的使用事件数据可能会发送给下述统计服务提供方，用于产品统计分析。另外，只有在您主动执行系统分享操作时，相关文本或文件才会被发送给其他应用。</p>
             </section>
 
             <section>
                 <h2>8. 第三方服务</h2>
-                <p>DevTool-HM 集成了友盟统计 SDK。该 SDK 可能在应用启动时进行预加载，而统计事件上报仅会在您于应用内同意隐私条款后启用。上报内容限于应用启动、Tab 浏览、主题/语言切换、法律文档打开等产品使用事件。第三方服务会按照其自身的条款与隐私政策处理相关数据。</p>
+                <p>DevKit 集成了友盟统计 SDK。该 SDK 可能在应用启动时进行预加载，而统计事件上报仅会在您于应用内同意隐私条款后启用。上报内容限于应用启动、Tab 浏览、主题/语言切换、法律文档打开等产品使用事件。第三方服务会按照其自身的条款与隐私政策处理相关数据。</p>
             </section>
 
             <section>
